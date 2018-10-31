@@ -15,5 +15,5 @@ npm install
 npm run build
 npm start
 ```
-then open your browser to http://localhost:8080
+then open your browser to http://localhost:8000
 
