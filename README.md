@@ -11,7 +11,7 @@ There is also some basic glue code to work with point based textures. You can te
 
 # Screenshot
 
-<img alt='screenshot' title='screenshot' src="screenshot.jpg" width='150px'>
+<img alt='screenshot' title='screenshot' src="screenshot.jpg" width='300px'>
 
 # Run
 ```
