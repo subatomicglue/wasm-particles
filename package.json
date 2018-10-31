@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "build": "node rollup/rollup.bundle.js",
+    "start": "http-server -p 8000",
+    "start-em": "emrun --no_browser --port 8080 index.html",
+    "clobber": "rm -rf node_modules package-lock.json"
+  },
+  "devDependencies": {
+    "rollup": "^0.47.2",
+    "rollup-plugin-buble": "^0.15.0",
+    "rollup-plugin-commonjs": "^8.1.0",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "webassembly": "^0.11.0"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
