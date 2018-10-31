@@ -2,8 +2,8 @@
 
 Forked from here:
 
-[Demo](https://maierfelix.github.io/wasm-particles/static)
-[src](https://github.com/maierfelix/wasm-particles)
+* [Demo](https://maierfelix.github.io/wasm-particles/static)
+* [src](https://github.com/maierfelix/wasm-particles)
 
 This is a visual benchmark, each particle is updated from WebAssembly and then drawn to the screen with WebGL. Normally you would outsource everything to the GPU, but to showcase WASM's speed each particle is updated within the WASM module (and so updated on the CPU).
 
